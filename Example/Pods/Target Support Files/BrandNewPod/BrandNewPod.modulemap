@@ -1,0 +1,6 @@
+framework module BrandNewPod {
+  umbrella header "BrandNewPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

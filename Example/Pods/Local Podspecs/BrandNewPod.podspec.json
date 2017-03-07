@@ -1,0 +1,22 @@
+{
+  "name": "BrandNewPod",
+  "version": "0.1.0",
+  "summary": "A short description of BrandNewPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/purushottam478/BrandNewPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "purushottam478": "purushottam.chandra@kuliza.com"
+  },
+  "source": {
+    "git": "https://github.com/purushottam478/BrandNewPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BrandNewPod/Classes/**/*"
+}

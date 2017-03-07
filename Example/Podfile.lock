@@ -1,0 +1,16 @@
+PODS:
+  - BrandNewPod (0.1.0)
+
+DEPENDENCIES:
+  - BrandNewPod (from `../`)
+
+EXTERNAL SOURCES:
+  BrandNewPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BrandNewPod: 28a4533b93b141b110cb9212dc941558062ef730
+
+PODFILE CHECKSUM: 93a6316054f2f82db80c0bed4687cde1342c14f5
+
+COCOAPODS: 1.1.1

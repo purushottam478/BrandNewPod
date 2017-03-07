@@ -13,8 +13,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
- s.source_files = 'BrandNewPod/Classes/**/*'
+    s.source_files = 'BrandNewPod/Classes/*.swift'
 
+#s.source_files = :git => 'https://github.com/purushottam478/BrandNewPod/tree/master/BrandNewPod/Classes/*.swift'
   # s.resource_bundles = {
   #   'BrandNewPod' => ['BrandNewPod/Assets/*.png']
   # }

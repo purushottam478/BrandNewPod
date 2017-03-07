@@ -1,8 +1,8 @@
 {
   "name": "BrandNewPod",
   "version": "0.1.0",
-  "summary": "A short description of BrandNewPod.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "BrandNewPod is my second test pod.",
+  "description": "I dont know its functionality yet. But hopefully real soon I will.",
   "homepage": "https://github.com/purushottam478/BrandNewPod",
   "license": {
     "type": "MIT",

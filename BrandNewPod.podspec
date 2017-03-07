@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'BrandNewPod'
   s.version          = '0.1.0'
   s.summary          = 'BrandNewPod is my second test pod.'
-  s.description      = 'I don't know its functionality yet. But hopefully real soon I will.''
+  s.description      = 'I dont know its functionality yet. But hopefully real soon I will.'
 
   s.homepage         = 'https://github.com/purushottam478/BrandNewPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -13,8 +13,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'BrandNewPod/Classes/**/*'
-  
+ s.source_files = 'BrandNewPod/Classes/**/*'
+
   # s.resource_bundles = {
   #   'BrandNewPod' => ['BrandNewPod/Assets/*.png']
   # }

@@ -14,7 +14,6 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		9C027D32753EB1023C97358D /* Pods_BrandNewPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A516ABBC3EF16BB220B26FD /* Pods_BrandNewPod_Example.framework */; };
-		C8B864182F2CEDBBCC6873D7 /* Pods_BrandNewPod_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747041527BDC3DAD760C9AB6 /* Pods_BrandNewPod_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,9 +43,7 @@
 		668681A387D4CB3533BDDF9F /* BrandNewPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BrandNewPod.podspec; path = ../BrandNewPod.podspec; sourceTree = "<group>"; };
 		747041527BDC3DAD760C9AB6 /* Pods_BrandNewPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrandNewPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95AC035DA32EB69EDEEB4D73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9BEC764A0C05D081FF9C263B /* Pods-BrandNewPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandNewPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrandNewPod_Tests/Pods-BrandNewPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A8428570B822887FCDD7B2C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FB985582FBE95BF56CA8A14F /* Pods-BrandNewPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrandNewPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrandNewPod_Tests/Pods-BrandNewPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8B864182F2CEDBBCC6873D7 /* Pods_BrandNewPod_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +140,6 @@
 			children = (
 				6079B029000AA4B796C1AC48 /* Pods-BrandNewPod_Example.debug.xcconfig */,
 				565B154C624417191A72E66B /* Pods-BrandNewPod_Example.release.xcconfig */,
-				9BEC764A0C05D081FF9C263B /* Pods-BrandNewPod_Tests.debug.xcconfig */,
-				FB985582FBE95BF56CA8A14F /* Pods-BrandNewPod_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -186,12 +180,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BrandNewPod_Tests" */;
 			buildPhases = (
-				1033B80374DA683B5926BBDD /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				2DBC93914E5F95E152166B5C /* [CP] Embed Pods Frameworks */,
-				18481F1279063236A0D03847 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,36 +255,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1033B80374DA683B5926BBDD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		18481F1279063236A0D03847 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandNewPod_Tests/Pods-BrandNewPod_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1CBF671BFBD89E21878BD01A /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,21 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandNewPod_Example/Pods-BrandNewPod_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2DBC93914E5F95E152166B5C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrandNewPod_Tests/Pods-BrandNewPod_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		85791A24B9AA7ADD398E3673 /* [CP] Embed Pods Frameworks */ = {
@@ -521,7 +467,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9BEC764A0C05D081FF9C263B /* Pods-BrandNewPod_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -541,7 +486,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB985582FBE95BF56CA8A14F /* Pods-BrandNewPod_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

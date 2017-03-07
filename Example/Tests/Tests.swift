@@ -1,6 +1,6 @@
 import UIKit
 import XCTest
-import BrandNewPod
+//import BrandNewPod
 
 class Tests: XCTestCase {
     

@@ -2,15 +2,15 @@ PODS:
   - BrandNewPod (0.1.0)
 
 DEPENDENCIES:
-  - BrandNewPod (from `../`)
+  - BrandNewPod (from `/Users/kuliza-335/Desktop/BrandNewPod`)
 
 EXTERNAL SOURCES:
   BrandNewPod:
-    :path: ../
+    :path: /Users/kuliza-335/Desktop/BrandNewPod
 
 SPEC CHECKSUMS:
-  BrandNewPod: 28a4533b93b141b110cb9212dc941558062ef730
+  BrandNewPod: d5312e3f88b4f68c5e1eb74a8a558c07a11db1c6
 
-PODFILE CHECKSUM: 93a6316054f2f82db80c0bed4687cde1342c14f5
+PODFILE CHECKSUM: f5ad30eace918951e4bc4f6e1c7cd985c6fc2450
 
 COCOAPODS: 1.1.1

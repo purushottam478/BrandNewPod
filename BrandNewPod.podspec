@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BrandNewPod'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'BrandNewPod is my second test pod.'
   s.description      = 'I dont know its functionality yet. But hopefully real soon I will.'
 

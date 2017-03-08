@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class CustomLabel: UILabel {
+@IBDesignable open class CustomLabel: UILabel {
 
     @IBInspectable var borderWidth : CGFloat = 0.0 {
         didSet {

@@ -8,7 +8,7 @@
 
 import UIKit
 
-@IBDesignable class CustomButton: UIButton {
+@IBDesignable open class CustomButton: UIButton {
 
     @IBInspectable var borderWidth : CGFloat = 0.0 {
         didSet {

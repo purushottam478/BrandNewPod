@@ -11,15 +11,25 @@ import BrandNewPod
 
 class ViewController: UIViewController {
 
+    @IBOutlet var nextPageButton: CustomButton!
+    @IBOutlet weak var quitButton: CustomButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        quitButton.addTarget(self, action: #selector(quitFunction), for: .touchUpInside)
+        nextPageButton.addTarget(self, action: #selector(nextPageDisplay), for: .touchUpInside)
     }
-
+    
+    func nextPageDisplay()
+    {
+        let controller = NextPage()
+        self.present(controller, animated: true, completion: nil)
+    }
+    
+    func quitFunction()
+    {
+        exit(0)
+    }
 }
 

@@ -1,6 +1,6 @@
 use_frameworks!
 
 target 'BrandNewPod_Example' do
-  pod 'BrandNewPod', :path => '/Users/kuliza-335/Desktop/BrandNewPod'
+  pod 'BrandNewPod'
 
 end
